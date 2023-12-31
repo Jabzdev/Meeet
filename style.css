@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&family=Sen:wght@400;700;800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background: #013243;
+    padding: 30px 120px;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Sen', sans-serif;
+}
+
+.header {
+    margin-bottom: 20px;
+}
+
+.main {
+    width: 900px;
+    padding: 0;
+}
+
+.main-part {
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+    align-items: first baseline;
+    gap: 30px;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 130px;
+    line-height: 120px;
+    color: #32f5c8;
+}
+
+.paragraph {
+    width: 410px;
+}
+
+.para {
+    color: #c7cbd3;
+    font-size: 21px;
+    font-family: 'Sen', sans-serif;
+}
+
+.btn {
+    border: 0;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 12px 12px;
+    background: #32f5c8;
+    border-radius: 5px;
+}
+
+.twitter {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.twitter-img {
+    width: 30px;
+}
+
+.twitter-para {
+    color: #c7cbd3;
+}
+
+
+
+}
